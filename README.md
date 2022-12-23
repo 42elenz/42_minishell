@@ -1,8 +1,7 @@
 # minishell
 This shell was done as a group project with [afrasch](https://github.com/afrasch) at the school 42Heilbronn.
 
-Welcome to our "SHELL SHOCK" Minishell. Handling all the minor cases creating a shell like expanding, Here-Docs and all the other thins <br>
-really gave us a little Shell-Shock :D 
+Welcome to our "SHELL SHOCK" Minishell. Handling all the minor cases creating a shell like expanding, Here-Docs and all the other things we had to take of really gave us a little Shell-Shock :D 
 
 <img src="https://github.com/42elenz/minishell/blob/master/ressources/Screenshot%202022-12-23%20at%2020.22.06.png" alt="Image scroe" width="10000">
 
