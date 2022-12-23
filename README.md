@@ -1,6 +1,11 @@
 # minishell
 This shell was done as a group project with [afrasch](https://github.com/afrasch) at the school 42Heilbronn.
+
+Welcome to our "SHELL SHOCK" Minishell. Handling all the minor cases creating a shell like expanding, Here-Docs and all the other thins <br>
+really gave us a little Shell-Shock :D 
+
 <img src="https://github.com/42elenz/minishell/blob/master/ressources/Screenshot%202022-12-23%20at%2020.22.06.png" alt="Image scroe" width="10000">
+
 ## Contents
 - [Introduction](https://github.com/42elenz/minishell#introduction)
 - [Our Minishell](https://github.com/42elenz/minishell#our-minishell)
@@ -78,7 +83,7 @@ The executor always returns the exit code of whatever it did.<br>
 
 #### wrong syntax
 If some form of wrong syntax gets detected, `Invalid Syntax at token` is printed and the error value `$?` is set to `258`<br>
-![syntax_error](https://github.com/42elenz/minishell/blob/ressources/syntax_error.png)<br>
+![syntax_error](https://github.com/42elenz/minishell/blob/master/ressources/syntax_error.png)<br>
 #### invalid command
 If there was an invalid command used, `command not found` is printed and the error value `$?` is set to `127`<br>
 ![invalid_command](https://github.com/42elenz/minishell/blob/master/ressources/invalid_command.png)<br>
