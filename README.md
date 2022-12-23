@@ -1,5 +1,6 @@
 # minishell
-This shell was done as a group project with [afrasch](https://github.com/afrasch)
+This shell was done as a group project with [afrasch](https://github.com/afrasch) at the school 42Heilbronn.
+<img src="https://github.com/42elenz/minishell/blob/master/ressources/Screenshot%202022-12-23%20at%2020.22.06.png" alt="Image scroe" width="60">
 ## Contents
 - [Introduction](https://github.com/42elenz/minishell#introduction)
 - [Our Minishell](https://github.com/42elenz/minishell#our-minishell)
@@ -16,12 +17,10 @@ The goal of the subject was to recreate some of the functionalities of bash (Ver
 To see the exact requirements, check Chapter III and IV of the subject pdf.<br>
 ## From the subject pdf
 ### Introduction
-```
 Creating our own shell is a task to bring us back and let us face the problems that people had back in the days. <br>
 
-```
 ### Some of the restrictions
-![subject_restrictions](https://github.com/42elenz/minishell/blob/ressources/minishell_from_subject_pdf.png)
+![subject_restrictions](https://github.com/42elenz/minishell/blob/master/ressources/minishell_from_subject_pdf.png)
 
 ## Our Minishell
 ### The basic functionalities of the project
@@ -31,7 +30,7 @@ Creating our own shell is a task to bring us back and let us face the problems t
 - there is some memory-leaks caused by the readline-library
 
 ### The basic structure of our minishell
-Just like most of the other shells we have divided our shell into 4 parts:
+Just like most of the other shells we have divided our shell into 3 parts:
 1. [Lexer and Parser](https://github.com/42elenz/minishell#lexer-and-parser)
 3. [Expander](https://github.com/42elenz/minishell#expander)
 4. [Executor](https://github.com/42elenz/minishell#executor)
@@ -71,7 +70,7 @@ After this is decided, the redirections of input and output are done and the com
 The executor always returns the exit code of whatever it did.<br>
 
 [back to contents](https://github.com/42elenz/minishell#contents)<br>
-[back to basic structure](https://github.com/42elenz/minishell#the-basic-functionalities-of-the-project)<br>
+[back to basic structure](https://github.com/42elenz/minishell/blob/master/ressources/syntax_error.png)<br>
 
 ----------
 
@@ -82,5 +81,5 @@ If some form of wrong syntax gets detected, `Invalid Syntax at token` is printed
 ![syntax_error](https://github.com/42elenz/minishell/blob/ressources/syntax_error.png)<br>
 #### invalid command
 If there was an invalid command used, `command not found` is printed and the error value `$?` is set to `127`<br>
-![invalid_command](https://github.com/42elenz/minishell/blob/ressources/invalid_command.png)<br>
+![invalid_command](https://github.com/42elenz/minishell/blob/master/ressources/invalid_command.png)<br>
 [back to contents](https://github.com/42elenz/minishell#contents)<br>
