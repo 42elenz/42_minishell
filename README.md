@@ -1,6 +1,6 @@
 # minishell
 This shell was done as a group project with [afrasch](https://github.com/afrasch) at the school 42Heilbronn.
-<img src="https://github.com/42elenz/minishell/blob/master/ressources/Screenshot%202022-12-23%20at%2020.22.06.png" alt="Image scroe" width="60">
+<img src="https://github.com/42elenz/minishell/blob/master/ressources/Screenshot%202022-12-23%20at%2020.22.06.png" alt="Image scroe" width="10000">
 ## Contents
 - [Introduction](https://github.com/42elenz/minishell#introduction)
 - [Our Minishell](https://github.com/42elenz/minishell#our-minishell)
