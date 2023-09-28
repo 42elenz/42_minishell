@@ -1,6 +1,6 @@
 NAME = minishell
 CC = gcc -g
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra 
 LIB_PATH = ./libft/
 LIBS = -lreadline -L /Users/$$USER/.brew/opt/readline/lib -L ./libft -lft
 INCLUDES = -I/Users/$$USER/.brew/opt/readline/include -I./includes
