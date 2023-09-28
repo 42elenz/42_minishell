@@ -33,7 +33,8 @@ Creating our own shell is a task to bring us back and let us face the problems t
 - this project uses the readline libraries `readline/history.h` and `readline/readline.h` you can install those via `brew install readline` or `apt-get install libreadline-dev`, thanks to those there is a working history of used commands
 - there is some memory-leaks caused by the readline-library
 
-<img src="https://github.com/42elenz/42_minishell/blob/master/ressources/28.09.2023_14.51.17_REC.png" alt="Image scroe" width="10000">
+Here is an example of a basic command executed in our shell: 
+<img src="https://github.com/42elenz/42_minishell/blob/master/ressources/28.09.2023_14.51.17_REC.png" alt="Image scroe" width="1000">
 
 
 ### The basic structure of our minishell
